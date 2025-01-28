@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FlightService.GrpcClient\FlightService.GrpcClient.csproj" />
+      <ProjectReference Include="..\PassengerService.GrpcClient\PassengerService.GrpcClient.csproj" />
+      <ProjectReference Include="..\TaskService.GrpcClient\TaskService.GrpcClient.csproj" />
+      <ProjectReference Include="..\TicketService.GrpcClient\TicketService.GrpcClient.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+</Project>

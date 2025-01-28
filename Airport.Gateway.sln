@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{763BFE0A-AFCF-4440-931D-52F4F1FD5DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerService.GrpcClient", "src\PassengerService.GrpcClient\PassengerService.GrpcClient.csproj", "{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpGateway", "src\HttpGateway\HttpGateway.csproj", "{D6FF64E5-35A7-490D-83C6-9961103D41AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.GrpcClient", "src\FlightService.GrpcClient\FlightService.GrpcClient.csproj", "{2142E2B7-3A51-4499-9E2B-6067AC162CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskService.GrpcClient", "src\TaskService.GrpcClient\TaskService.GrpcClient.csproj", "{3BAA15F6-205A-4F3D-83E7-91F037D02969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketService.GrpcClient", "src\TicketService.GrpcClient\TicketService.GrpcClient.csproj", "{F28153F3-CBFD-4EB7-8319-88EF716146F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF64E5-35A7-490D-83C6-9961103D41AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF64E5-35A7-490D-83C6-9961103D41AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF64E5-35A7-490D-83C6-9961103D41AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF64E5-35A7-490D-83C6-9961103D41AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2142E2B7-3A51-4499-9E2B-6067AC162CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2142E2B7-3A51-4499-9E2B-6067AC162CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2142E2B7-3A51-4499-9E2B-6067AC162CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2142E2B7-3A51-4499-9E2B-6067AC162CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAA15F6-205A-4F3D-83E7-91F037D02969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAA15F6-205A-4F3D-83E7-91F037D02969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAA15F6-205A-4F3D-83E7-91F037D02969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAA15F6-205A-4F3D-83E7-91F037D02969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28153F3-CBFD-4EB7-8319-88EF716146F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28153F3-CBFD-4EB7-8319-88EF716146F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28153F3-CBFD-4EB7-8319-88EF716146F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28153F3-CBFD-4EB7-8319-88EF716146F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7ECEB4B-26FC-4A10-A2D1-BB24D7D372CA} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{D6FF64E5-35A7-490D-83C6-9961103D41AF} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{2142E2B7-3A51-4499-9E2B-6067AC162CD4} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{3BAA15F6-205A-4F3D-83E7-91F037D02969} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+		{F28153F3-CBFD-4EB7-8319-88EF716146F1} = {A5DDAC88-3B8F-4674-8E0C-F8A50A52ACD3}
+	EndGlobalSection
+EndGlobal
